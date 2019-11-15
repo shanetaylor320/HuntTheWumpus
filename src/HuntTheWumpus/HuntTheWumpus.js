@@ -6,7 +6,8 @@ import { Board } from "./Board";
 import { TextOutput } from "./TextOutput";
 import { Controls } from "./Controls";
 
-const api = "http://localhost:3000/api/HuntTheWumpus"
+// const api = "http://localhost:3000/ai/HuntTheWumpus"
+const api = "https://wumpus-server.herokuapp.com/api/HuntTheWumpus"
 
 export class HuntTheWumpus extends React.Component {
   constructor(props) {
